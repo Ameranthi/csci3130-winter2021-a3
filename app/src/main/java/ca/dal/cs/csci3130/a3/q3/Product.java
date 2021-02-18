@@ -6,9 +6,4 @@ public class Product {
         return 1;
     }
 
-
-
-
-
-
 }

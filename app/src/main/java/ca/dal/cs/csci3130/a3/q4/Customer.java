@@ -20,9 +20,6 @@ public class Customer {
     }
 
     public String getFormattedPhoneNumber() {
-        String formattedNumber = new String();
-        formattedNumber = this.unformattedNumber.getAreaCode() + "-" + this.unformattedNumber.getPrefix() +
-                "-" + this.unformattedNumber.getNumber();
-        return formattedNumber;
+        return unformattedNumber.formattedPhoneNumber;
     }
 }
